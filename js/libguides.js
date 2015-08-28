@@ -6,7 +6,8 @@ $(document).ready(function() {
 	  return array.indexOf(value) > -1;
 	}
 
-	if($('s-lg-az-cols').length > 0) {
+	setTimeout(function() {
+		if($('s-lg-az-cols').length > 0) {
 
 		console.log('This is a database page');
 
@@ -29,4 +30,6 @@ $(document).ready(function() {
 			}
 		});	
 	}
+	}, 500);
+	
 });
