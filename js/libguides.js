@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	console.log('Setting up eBook provider array');
 	var ebookProvs = ["ACLS Humanities E-Book Project","African American Experience","American Indian Experience","Cambridge Companions","Cambridge Histories Online","Daily Life Through History","Early English Books Online (EEBO)","Ebooks at Ebscohost","Ebrary","EditLib Digital Library","Eighteenth Century Collections Online","Knovel","Latino American Experience","Oxford Scholarship Online","Pop Culture Universe","Safari Books Online","StarWalk KidsMedia","Stat!Ref","World Folklore and Folklife"];
 
 	function isInArray(value, array) {
