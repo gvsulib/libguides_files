@@ -31,5 +31,32 @@ $(document).ready(function() {
 		});	
 	}
 	}, 500);
+
+	setTimeout(function() {
+		if($('.s-lg-database-desc').length > 0) {
+
+		console.log('This is a Libguide');
+
+		// Database list
+
+		$('.s-lg-database-desc').each(function() {
+
+			var linkText = $(this).parent('div').find('a').text();
+			console.log(linkText);
+			if(isInArray(linkText, ebookProvs)) {
+
+				console.log('Adding click handler to databases...');
+				$(this).parent('div').find('a').click(function() {
+
+					var ebookProvider = $(this).text();
+					console.log(linkText);
+					var eBookTracker = document.createElement('img');
+					eBookTracker.src = '//labs.library.gvsu.edu/labs/ebooks/?source=libguides&prov=' + encodeURIComponent(linkText.trim());
+					document.body.appendChild(eBookTracker);
+				});
+			}
+		});	
+	}
+	}, 500);
 	
 });
