@@ -6,12 +6,16 @@ function isInArray(value, array) {
 
 if($('.s-lg-az-result-title').length > 0) {
 
+	console.log('This is a database page');
+
 	// Database list
 
 	$('.s-lg-az-result-title').each(function() {
 
 		var linkText = $(this).find('a').text();
 		if(isInArray(linkText, ebookProvs)) {
+
+			console.log('Adding click handler to databases...');
 			$(this).find('a').click(function() {
 
 				var ebookProvider = $(this).text();
