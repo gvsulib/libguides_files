@@ -7,7 +7,7 @@ $(document).ready(function() {
 	}
 
 	setTimeout(function() {
-		if($('s-lg-az-cols').length > 0) {
+		if($('#s-lg-az-cols').length > 0) {
 
 		console.log('This is a database page');
 
