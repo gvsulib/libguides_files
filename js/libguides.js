@@ -12,7 +12,7 @@ $(document).ready(function() {
 
 		// Database list
 
-		$('.s-lg-az-result-title').each(function() {
+		$('#s-lg-az-cols').each(function() {
 
 			var linkText = $(this).find('a').text();
 			if(isInArray(linkText, ebookProvs)) {
