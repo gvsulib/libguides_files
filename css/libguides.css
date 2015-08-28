@@ -1,6 +1,8 @@
 body { padding: 0 !important; }
 #cms-content ul {margin-left: .75em; }
-#cms-content a { color: #0065a4; }
+#cms-content a { color: #1F65A0; text-decoration: none;}
+a.btn.btn-primary, .btn.btn-primary a { color: #fff !important;}
+a.btn.btn-default, .btn.btn-default a { color: #333 !important; }
 #cms-header .cms-navigation ul { margin-bottom: 0 !important; }
 .container { width: 100% !important; max-width: 100% !important; }
 .panel-body .alert.alert-info.margin-top-med { display: none }
