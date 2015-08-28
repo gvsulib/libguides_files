@@ -6,13 +6,13 @@ $(document).ready(function() {
 	  return array.indexOf(value) > -1;
 	}
 
-	if($('.s-lg-az-result-title').length > 0) {
+	if($('s-lg-az-cols').length > 0) {
 
 		console.log('This is a database page');
 
 		// Database list
 
-		$('#s-lg-az-cols').each(function() {
+		$('.s-lg-az-result-title').each(function() {
 
 			var linkText = $(this).find('a').text();
 			if(isInArray(linkText, ebookProvs)) {
