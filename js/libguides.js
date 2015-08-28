@@ -42,8 +42,8 @@ $(document).ready(function() {
 		$('.s-lg-database-desc').each(function() {
 
 			var linkText = $(this).parent('div').find('a').text();
-			console.log(linkText);
-			if(isInArray(linkText, ebookProvs)) {
+			//console.log(linkText);
+			if(isInArray(linkText.trim(), ebookProvs)) {
 
 				console.log('Adding click handler to databases...');
 				$(this).parent('div').find('a').click(function() {
