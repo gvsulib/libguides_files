@@ -38,3 +38,6 @@ a#s-lg-az-reset {float: right;}
 	background-repeat: no-repeat;
 }
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover { color: #fff !important; }
+div#cms-body-inner {
+    overflow: visible;
+}
