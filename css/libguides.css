@@ -37,6 +37,9 @@ a#s-lg-az-reset {float: right;}
 	background-position: 10% 50%;
 	background-repeat: no-repeat;
 }
+#s-lg-submap-frm .chosen-container {
+    position: relative;
+}
 #cms-body-inner {
     overflow: visible;
 }
