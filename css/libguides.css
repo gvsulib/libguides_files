@@ -27,7 +27,7 @@ h2.s-lib-box-title { font-size: 1.4em !important;}
 .s-lib-box-content div { color: #333 !important; }
 .s-lib-box-content a { color: #0065a4 !important; }
 .s-lg-er-item-list, .s-lg-link-list, .s-lg-rss-list, .s-lg-system-list { padding-left: 0 !important; }
-.chosen-container { position: static; }
+/*.chosen-container { position: static; }*/
 .s-lg-az-result, .s-lg-az-trial { border: none !important; }
 .s-lg-db-panel { margin-bottom: 0;}
 a#s-lg-az-reset {float: right;}
