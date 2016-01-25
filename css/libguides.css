@@ -44,3 +44,10 @@ a#s-lg-az-reset {float: right;}
     overflow: visible;
 }
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover { color: #fff !important; }
+
+/* LibGuides' Bootstrap and Campus Bootstrap don't like each other! */
+.s-lib-box .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.s
