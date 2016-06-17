@@ -51,4 +51,11 @@ a#s-lg-az-reset {float: right;}
     margin-left: 0 !important;
     margin-right: 0 !important;
 }
-.s
+.checkbox input[type="checkbox"],
+.checkbox-inline inpud[type="checkbox"],
+.radio input[type="radio"],
+.radio-inline input[type="radio"] {
+	position: absolute;
+	margin-top: 4px;
+	margin-left: -20px;
+}
