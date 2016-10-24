@@ -20,7 +20,7 @@ h2.s-lib-box-title { font-size: 1.4em !important;}
 .s-lib-box-content p span,
 .s-lib-box-content p a,
 .s-lib-box-content ul li,
-.s-lib-box-content font 
+.s-lib-box-content font
  { font-size: 16px !important; }
 .s-lib-box-content p > span,
 .s-lib-box-content ul *,
@@ -62,4 +62,8 @@ a#s-lg-az-reset {float: right;}
 	position: absolute;
 	margin-top: 4px;
 	margin-left: -20px;
+}
+.s-lg-poll-title legend {
+  font-family: Arial,sans-serif;
+  font-size: 16px;
 }
