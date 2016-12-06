@@ -67,3 +67,7 @@ a#s-lg-az-reset {float: right;}
   font-family: Arial,sans-serif;
   font-size: 16px;
 }
+.s-lib-profile-container .s-lib-profile-email a {
+    color: #fff !important;
+    text-decoration: none !important;
+}
