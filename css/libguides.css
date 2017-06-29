@@ -80,3 +80,7 @@ span.disabled {
     padding: .5em !important;
     border: 1px solid #faebcc !important;
 }
+.s-lib-box .s-lib-box-title {
+    /* Improve color contrast for headings for accessibility */
+    color: #575757;
+}
