@@ -87,6 +87,22 @@ span.disabled {
 .badge {
     background-color: #333 !important;
 }
-.navbar-default .navbar-brand {
+.navbar-default .navbar-brand,
+.s-lib-color-lt-grey {
     color: #333 !important;
+}
+
+button.btn.btn-primary {
+    color: #fff !important;
+}
+iframe {
+    border: 0 !important;
+}
+#cms-footer ul li h4 {
+    font-family: AlternateGothicFSNo3,Arial,sans-serif;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 400;
+    padding-bottom: 2px;
 }
