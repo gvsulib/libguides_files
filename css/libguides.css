@@ -84,3 +84,6 @@ span.disabled {
     /* Improve color contrast for headings for accessibility */
     color: #575757;
 }
+.badge {
+    background-color: #333 !important;
+}
