@@ -87,3 +87,6 @@ span.disabled {
 .badge {
     background-color: #333 !important;
 }
+.navbar-default .navbar-brand {
+    color: #333 !important;
+}
