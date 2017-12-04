@@ -106,3 +106,7 @@ iframe {
     font-weight: 400;
     padding-bottom: 2px;
 }
+/* CK Editor - hide nefarious WYSIWYG options */
+#cke_10, #cke_12, #cke_13, #cke_15, #cke_48, #cke_21, #cke_32, #cke_33, #cke_34, #cke_35 {
+    display: none !important;
+}
