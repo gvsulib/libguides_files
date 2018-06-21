@@ -105,3 +105,8 @@ iframe {
 #cke_10, #cke_12, #cke_13, #cke_15, #cke_48, #cke_21, #cke_32, #cke_33, #cke_34, #cke_35 {
     display: none !important;
 }
+.site .library-nav a,
+.library-hours p a {
+    text-decoration: underline !important;
+}
+.library-hours li.row { margin-left: 0 !important; margin-right: 0 !important; }
