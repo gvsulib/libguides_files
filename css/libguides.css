@@ -102,7 +102,11 @@ iframe {
     padding-bottom: 2px;
 }
 /* CK Editor - hide nefarious WYSIWYG options */
-#cke_10, #cke_12, #cke_13, #cke_15, #cke_48, #cke_21, #cke_32, #cke_33, #cke_34, #cke_35 {
+.cke_combo__styles,
+.cke_combo__font,
+.cke_combo__fontsize,
+.cke_button__textcolor,
+.cke_button__bgcolor {
     display: none !important;
 }
 .site .library-nav a,
