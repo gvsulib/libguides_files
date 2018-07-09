@@ -102,10 +102,15 @@ iframe {
     padding-bottom: 2px;
 }
 @media screen and (max-width: 992px) {
-    .col-md-4 { width: 100% !important; }
-    .col-md-6 { width: 100% !important; }
-    .col-md-8 { width: 100% !important; }
     .col-md-2 { width: 100% !important; }
+    .col-md-3 { width: 100% !important; }
+    .col-md-4 { width: 100% !important; }
+    .col-md-5 { width: 100% !important; }
+    .col-md-6 { width: 100% !important; }
+    .col-md-7 { width: 100% !important; }
+    .col-md-8 { width: 100% !important; }
+    .col-md-9 { width: 100% !important; }
+     .col-md-10 { width: 100% !important; }
 }
 
 /* CK Editor - hide nefarious WYSIWYG options */
