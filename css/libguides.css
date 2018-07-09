@@ -101,6 +101,10 @@ iframe {
     font-weight: 400;
     padding-bottom: 2px;
 }
+@media screen and (max-width: 992px) {
+    .col-md-4 { width: 100% !important; }
+}
+
 /* CK Editor - hide nefarious WYSIWYG options */
 .cke_combo__styles,
 .cke_combo__font,
