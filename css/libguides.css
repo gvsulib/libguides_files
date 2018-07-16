@@ -101,6 +101,9 @@ iframe {
     font-weight: 400;
     padding-bottom: 2px;
 }
+.bottom {
+    background: #fff !important;
+}
 @media screen and (max-width: 992px) {
     .col-md-2 { width: 100% !important; }
     .col-md-3 { width: 100% !important; }
