@@ -103,6 +103,7 @@ iframe {
 }
 .bottom {
     background: #fff !important;
+    white-space: normal;
 }
 @media screen and (max-width: 992px) {
     .col-md-2 { width: 100% !important; }
