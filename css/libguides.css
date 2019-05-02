@@ -105,6 +105,9 @@ iframe {
     background: #fff !important;
     white-space: normal;
 }
+.navigation {
+    z-index: 9 !important;
+}
 @media screen and (max-width: 992px) {
     .col-md-2 { width: 100% !important; }
     .col-md-3 { width: 100% !important; }
