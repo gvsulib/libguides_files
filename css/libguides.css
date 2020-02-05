@@ -101,7 +101,7 @@ iframe {
     font-weight: 400;
     padding-bottom: 2px;
 }
-.bottom {
+.bottom.hide-print {
     background: #222 !important;
     white-space: normal;
 }
