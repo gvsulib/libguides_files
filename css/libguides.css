@@ -101,10 +101,14 @@ iframe {
     font-weight: 400;
     padding-bottom: 2px;
 }
+.bottom {
+    background: transparent !important;
+}
 .bottom.hide-print {
     background: #222 !important;
     white-space: normal;
 }
+
 .navigation {
     z-index: 9 !important;
 }
