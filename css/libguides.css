@@ -112,6 +112,9 @@ iframe {
 .navigation {
     z-index: 9 !important;
 }
+.s-srch-result-url {
+    display: none;
+}
 @media screen and (max-width: 992px) {
     .col-md-2 { width: 100% !important; }
     .col-md-3 { width: 100% !important; }
