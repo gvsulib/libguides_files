@@ -137,3 +137,67 @@ iframe {
     text-decoration: underline !important;
 }
 .library-hours li.row { margin-left: 0 !important; margin-right: 0 !important; }
+
+.breadcrumb {
+	border: none !important;
+	background: #fff !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+#s-lib-admin-bc .breadcrumb, #s-lib-bc .breadcrumb {
+	font-size: 12px !important;
+}
+
+ul.nav.nav-tabs, #s-lg-guide-header-attribute {
+	font-size: 16px;
+}
+.dropdown-menu, .multiselect-item.filter .input-group-addon {
+	font-size: 14px;
+}
+.fa, .far, .fas { font-family: FontAwesome !important; }
+.s-lib-profile-div .label.label-info {
+	padding: .4em !important;
+}
+#s-lg-submap-frm .chosen-container {
+    position: relative;
+}
+.s-srch-result { font-size: 14.5px !important; }
+.pagination > .active > a { color: #fff !important; }
+.body-edit { padding: 0 1% !important;
+padding-top: 50px !important;
+}
+#file_upload {
+width: auto !important;
+max-width: none !important;
+}
+p,li {
+
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+
+}
+
+
+@media screen and (min-width: 751px) and (max-width: 980px) {
+	.body-edit {
+		padding-top: 125px !important;
+	}
+}
+@media screen and (min-width: 981px) and (max-width: 1110px) {
+	.body-edit {
+		padding-top: 85px !important;
+	}
+}
