@@ -115,6 +115,31 @@ iframe {
 .s-srch-result-url {
     display: none;
 }
+
+#s-lib-admin-bc .breadcrumb, #s-lib-bc .breadcrumb {
+    margin: 5px 0 10px 0;
+    font-weight: normal;
+    font-size: 1em;
+    background-color; transparent;
+}
+
+.breadcrumb {
+    border-top: none !important;
+    border-bottom: none !important;
+    background: #f5f5f5;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.breadcrumb>li+li:before {
+    color: #000;
+    content: "/\003E";
+}
+
+.nav-pills>li:last-child {
+    float: right;
+}
+
 @media screen and (max-width: 992px) {
     .col-md-2 { width: 100% !important; }
     .col-md-3 { width: 100% !important; }
@@ -125,6 +150,9 @@ iframe {
     .col-md-8 { width: 100% !important; }
     .col-md-9 { width: 100% !important; }
      .col-md-10 { width: 100% !important; }
+     .nav-pills>li:last-child {
+    float: none;
+}
 }
 
 /* CK Editor - hide nefarious WYSIWYG options */
